@@ -1,2 +1,2 @@
 # python-docs
-Generate HTML documentation pages from Python docstrings.
+My own take on a Python documentation generator.
