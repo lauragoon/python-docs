@@ -1,4 +1,4 @@
-def print_sentence(name, num, color=orange):
+def print_sentence(name, num, color="orange"):
     """
     Prints a sentence given the inputs.
     Returns: [None]
