@@ -10,13 +10,13 @@ PARAM_DESC = "param_desc"
 
 def init_fxn_info_dict():
     return {
-        "name": None,
-        "param_names": [],
-        "param_optional_vals": {},
-        "desc": "",
-        "return_type": None,
-        "return_desc": "",
-        "param_desc": {} # { param : [type, desc] }
+        NAME: None,
+        PARAM_NAMES: [],
+        PARAM_OPTIONAL_VALS: {},
+        DESC: "",
+        RETURN_TYPE: None,
+        RETURN_DESC: "",
+        PARAM_DESC: {} # { param : [type, desc] }
     }
 
 def process_file(filename):
@@ -94,7 +94,7 @@ def process_file(filename):
                 
 
 def main():
-    process_file("tests/fxn.py")
+    process_file("fxn.py")
 
 
 main()
